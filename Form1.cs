@@ -18,7 +18,7 @@ namespace EzeilsData
         {
             timerEZeils.Enabled = true;
             timerEZeils.Start();
-            if (timerEZeils.Enabled)
+            while (timerEZeils.Enabled)
             {
                 ProductManage productManage = new ProductManage();
                 productManage.UpdateProduct();
@@ -35,7 +35,7 @@ namespace EzeilsData
         {
             timerEZeils.Enabled = true;
             timerEZeils.Start();
-            if (timerEZeils.Enabled)
+            while (timerEZeils.Enabled)
             {
                 ProductManage productManage = new ProductManage();
                 productManage.UpdateProduct();
